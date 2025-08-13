@@ -1,4 +1,4 @@
-# Password Generator - OOP Approach
+# Password Generator 
 
 This project contains a password generator application written in Python. The generator can create three types of passwords:
 
