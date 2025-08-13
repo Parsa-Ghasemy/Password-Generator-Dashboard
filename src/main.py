@@ -41,6 +41,7 @@ class MemorablePasswordGenarator(PasswordGenerator):
         self.num_of_word = num_of_word
         self.capital = capital
         self.separator = separator
+        
      
     
 
@@ -53,9 +54,4 @@ class MemorablePasswordGenarator(PasswordGenerator):
         
         return self.separator. join(Password_word)
 
-
-
-
-if __name__ == "__main__":
-    obj=MemorablePasswordGenarator(10, True, ',') 
-    print( obj.generate())
+ 
